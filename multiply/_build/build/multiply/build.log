@@ -1,7 +1,0 @@
-building targets: exe
-File /Users/zzak/projects/bits-of-dylan/multiply/_build/lib/multiply.mkf : dylanmakefile.mkf
-Cc _glue.o : _glue.c
-Cc library.o : library.c
-Cc multiply.o : multiply.c
-LinkDLL /Users/zzak/projects/bits-of-dylan/multiply/_build/lib/libmultiply.dylib : _glue.o library.o multiply.o
-LinkEXE /Users/zzak/projects/bits-of-dylan/multiply/_build/bin/multiply : _main.c
